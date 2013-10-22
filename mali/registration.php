@@ -69,26 +69,25 @@ if(isset($_POST['submit']))
 <div align="right">
    <form action="home.php" method="post">
       
-      Username :
-      <input type="text" name="username"/>
+      Username :<input type="text" name="username"/>
 	  Password :
 	  <input type="text" name="pswd"/>
 	  <input type="submit" value="Login" name="Login"/></br>
   </form>
 </div>
 
-<img src="img/logo_new.jpg" height="265" width="1492"/>
+<img src="img/logo.jpg" height="265" width="1492"/>
 <a href="registration.php"><b> Home</b></a>
 &nbsp;<a href="gallery.php"><b>Gallery</b></a>
-&nbsp;<a href="http://www.nitt.edu/prm/ShowResult.htm" target="_blank"><b>Result</b></a>
-&nbsp;<a href="event.php"><b>Event</b></a>
+&nbsp;<a href="registration.php"><b>Result</b></a>
+&nbsp;<a href="registration.php"><b>Event</b></a>
 &nbsp;<a href="contact.php"><b>Contacts</b></a>
 &nbsp;
 
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 
     <table   align="center" width="400" height="495">
-	<th colspan="2" bgcolor="#993300"><h2>Registration Form</h2></th>
+	<th colspan="2">Registration Form</th>
     <tr>
    	 <td  bordercolordark="#999933" bgcolor="#999999" >First Name :</td><td bordercolordark="#999933" bgcolor="#999999"><input type="text" name="fname" /></td></tr></br>
    <tr><td  bordercolordark="#999933" bgcolor="#999999" >Last  Name :</td><td bordercolordark="#999933" bgcolor="#999999"><input type="text" name="lname" /></td></tr></br>
@@ -104,7 +103,7 @@ if(isset($_POST['submit']))
 <footer>
   <p>Posted by: Mukesh Mali</p>
   <p>Contact information: <a href="contact.php">205112067@nitt.edu</a>.</p>
-<img src="img/ff.png" width="1499"></footer>
+</footer>
 
 </body>
 

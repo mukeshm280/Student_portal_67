@@ -13,10 +13,21 @@
 	  <input type="text" name="pswd"/>
 	  <input type="submit" value="Login" name="Login"/></br>
   </form>
+<<<<<<< HEAD
+  <img src="img/logo_new.jpg" height="265" width="1492"/>
+</div>
+<a href="registration.php"><b> Home</b></a>
+&nbsp;<a href="gallery.php"><b>Gallery</b></a>
+&nbsp;<a href="registration.php"><b>Result</b></a>
+&nbsp;<a href="event.php"><b>Event</b></a>
+&nbsp;<a href="contact.php"><b>Contacts</b></a>
+&nbsp;<h2>Contacts</h2>
+=======
   <img src="img/logo.jpg" height="265" width="1492"/>
 </div>
 <a href="registration.php"><b> Home</b></a>
 <h2>Contacts</h2>
+>>>>>>> 5e1d14075d8d160092f84ad5e97cd8509b613d0e
 <center>
 National Institute of Technology</br>
 
@@ -33,5 +44,13 @@ HOSTEL : BOYS : (0431) 2504186, 2504192</br>
 GIRLS : (0431) 2504392</br>
 Fax : 91-431-2500133</br>
 Website : http://www.nitt.edu</center>
+<<<<<<< HEAD
+<footer>
+  <p>Posted by: Mukesh Mali</p>
+  <p>Contact information: <a href="contact.php">205112067@nitt.edu</a>.</p>
+<img src="img/ff.png" width="1499"></footer>
+
+=======
+>>>>>>> 5e1d14075d8d160092f84ad5e97cd8509b613d0e
 </body>
 </html>
